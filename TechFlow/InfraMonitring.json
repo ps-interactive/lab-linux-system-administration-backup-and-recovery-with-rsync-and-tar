@@ -1,0 +1,20 @@
+{
+    "infrastructure": [
+      {
+        "system_id": "SYS001",
+        "system_name": "Main Database Server",
+        "status": "Operational",
+        "cpu_usage": "65%",
+        "memory_usage": "70%",
+        "disk_space": "80%"
+      },
+      {
+        "system_id": "SYS002",
+        "system_name": "Web Application Server",
+        "status": "Down",
+        "issue_detected": "Disk Failure",
+        "repair_eta": "2 hours"
+      }
+    ]
+  }
+  

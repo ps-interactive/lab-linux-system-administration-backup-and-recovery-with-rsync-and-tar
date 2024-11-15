@@ -1,0 +1,22 @@
+{
+    "support_tickets": [
+      {
+        "ticket_id": "T001",
+        "client_name": "ABC Corp",
+        "issue_description": "Server outage",
+        "priority": "High",
+        "status": "Resolved",
+        "resolution_time": "4 hours",
+        "assigned_technician": "John Doe"
+      },
+      {
+        "ticket_id": "T002",
+        "client_name": "XYZ Corp",
+        "issue_description": "Email server configuration issue",
+        "priority": "Medium",
+        "status": "In Progress",
+        "assigned_technician": "Jane Smith"
+      }
+    ]
+  }
+  

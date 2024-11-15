@@ -1,0 +1,244 @@
+{
+  "financial_data": [
+    {
+      "transaction_id": "T001",
+      "account_holder": "John Doe",
+      "transaction_type": "Credit",
+      "transaction_amount": 1200.50,
+      "transaction_date": "2024-10-01",
+      "account_balance": 5400.75
+    },
+    {
+      "transaction_id": "T002",
+      "account_holder": "Jane Smith",
+      "transaction_type": "Debit",
+      "transaction_amount": 450.00,
+      "transaction_date": "2024-10-02",
+      "account_balance": 3200.50
+    },
+    {
+      "transaction_id": "T003",
+      "account_holder": "Alice Johnson",
+      "transaction_type": "Credit",
+      "transaction_amount": 1500.00,
+      "transaction_date": "2024-10-03",
+      "account_balance": 4700.00
+    },
+    {
+      "transaction_id": "T004",
+      "account_holder": "Bob Williams",
+      "transaction_type": "Debit",
+      "transaction_amount": 800.75,
+      "transaction_date": "2024-10-04",
+      "account_balance": 2500.25
+    },
+    {
+      "transaction_id": "T005",
+      "account_holder": "Emily Brown",
+      "transaction_type": "Credit",
+      "transaction_amount": 2000.00,
+      "transaction_date": "2024-10-05",
+      "account_balance": 6200.00
+    },
+    {
+      "transaction_id": "T006",
+      "account_holder": "Michael Davis",
+      "transaction_type": "Debit",
+      "transaction_amount": 120.50,
+      "transaction_date": "2024-10-06",
+      "account_balance": 5880.50
+    },
+    {
+      "transaction_id": "T007",
+      "account_holder": "Sophia Wilson",
+      "transaction_type": "Credit",
+      "transaction_amount": 3000.00,
+      "transaction_date": "2024-10-07",
+      "account_balance": 8900.50
+    },
+    {
+      "transaction_id": "T008",
+      "account_holder": "James Moore",
+      "transaction_type": "Debit",
+      "transaction_amount": 700.25,
+      "transaction_date": "2024-10-08",
+      "account_balance": 8200.25
+    },
+    {
+      "transaction_id": "T009",
+      "account_holder": "Olivia Taylor",
+      "transaction_type": "Credit",
+      "transaction_amount": 2500.75,
+      "transaction_date": "2024-10-09",
+      "account_balance": 10700.00
+    },
+    {
+      "transaction_id": "T010",
+      "account_holder": "William Clark",
+      "transaction_type": "Debit",
+      "transaction_amount": 600.00,
+      "transaction_date": "2024-10-10",
+      "account_balance": 10100.00
+    },
+    {
+      "transaction_id": "T011",
+      "account_holder": "Ava Lewis",
+      "transaction_type": "Credit",
+      "transaction_amount": 1500.00,
+      "transaction_date": "2024-10-11",
+      "account_balance": 11600.00
+    },
+    {
+      "transaction_id": "T012",
+      "account_holder": "Benjamin Hall",
+      "transaction_type": "Debit",
+      "transaction_amount": 300.50,
+      "transaction_date": "2024-10-12",
+      "account_balance": 11300.50
+    },
+    {
+      "transaction_id": "T013",
+      "account_holder": "Charlotte Allen",
+      "transaction_type": "Credit",
+      "transaction_amount": 1800.00,
+      "transaction_date": "2024-10-13",
+      "account_balance": 13100.50
+    },
+    {
+      "transaction_id": "T014",
+      "account_holder": "Liam Young",
+      "transaction_type": "Debit",
+      "transaction_amount": 500.00,
+      "transaction_date": "2024-10-14",
+      "account_balance": 12600.50
+    },
+    {
+      "transaction_id": "T015",
+      "account_holder": "Mia Hernandez",
+      "transaction_type": "Credit",
+      "transaction_amount": 2500.00,
+      "transaction_date": "2024-10-15",
+      "account_balance": 15100.50
+    },
+    {
+      "transaction_id": "T016",
+      "account_holder": "Noah Martinez",
+      "transaction_type": "Debit",
+      "transaction_amount": 400.00,
+      "transaction_date": "2024-10-16",
+      "account_balance": 14700.50
+    },
+    {
+      "transaction_id": "T017",
+      "account_holder": "Isabella Lopez",
+      "transaction_type": "Credit",
+      "transaction_amount": 3200.00,
+      "transaction_date": "2024-10-17",
+      "account_balance": 17900.50
+    },
+    {
+      "transaction_id": "T018",
+      "account_holder": "Lucas Gonzalez",
+      "transaction_type": "Debit",
+      "transaction_amount": 1000.75,
+      "transaction_date": "2024-10-18",
+      "account_balance": 16900.00
+    },
+    {
+      "transaction_id": "T019",
+      "account_holder": "Amelia Perez",
+      "transaction_type": "Credit",
+      "transaction_amount": 2200.00,
+      "transaction_date": "2024-10-19",
+      "account_balance": 19100.00
+    },
+    {
+      "transaction_id": "T020",
+      "account_holder": "Ethan King",
+      "transaction_type": "Debit",
+      "transaction_amount": 700.00,
+      "transaction_date": "2024-10-20",
+      "account_balance": 18400.00
+    },
+    {
+      "transaction_id": "T021",
+      "account_holder": "Harper Hill",
+      "transaction_type": "Credit",
+      "transaction_amount": 1500.00,
+      "transaction_date": "2024-10-21",
+      "account_balance": 19900.00
+    },
+    {
+      "transaction_id": "T022",
+      "account_holder": "Mason Scott",
+      "transaction_type": "Debit",
+      "transaction_amount": 600.00,
+      "transaction_date": "2024-10-22",
+      "account_balance": 19300.00
+    },
+    {
+      "transaction_id": "T023",
+      "account_holder": "Evelyn Green",
+      "transaction_type": "Credit",
+      "transaction_amount": 1900.50,
+      "transaction_date": "2024-10-23",
+      "account_balance": 21200.50
+    },
+    {
+      "transaction_id": "T024",
+      "account_holder": "Logan Adams",
+      "transaction_type": "Debit",
+      "transaction_amount": 450.00,
+      "transaction_date": "2024-10-24",
+      "account_balance": 20750.50
+    },
+    {
+      "transaction_id": "T025",
+      "account_holder": "Abigail Baker",
+      "transaction_type": "Credit",
+      "transaction_amount": 1000.00,
+      "transaction_date": "2024-10-25",
+      "account_balance": 21750.50
+    },
+    {
+      "transaction_id": "T026",
+      "account_holder": "Elijah Carter",
+      "transaction_type": "Debit",
+      "transaction_amount": 300.00,
+      "transaction_date": "2024-10-26",
+      "account_balance": 21450.50
+    },
+    {
+      "transaction_id": "T027",
+      "account_holder": "Ella Rivera",
+      "transaction_type": "Credit",
+      "transaction_amount": 2500.00,
+      "transaction_date": "2024-10-27",
+      "account_balance": 23950.50
+    },
+    {
+      "transaction_id": "T028",
+      "account_holder": "Henry Sanchez",
+      "transaction_type": "Debit",
+      "transaction_amount": 800.00,
+      "transaction_date": "2024-10-28",
+      "account_balance": 23150.50
+    },
+    {
+      "transaction_id": "T029",
+      "account_holder": "Lily Ramirez",
+      "transaction_type": "Credit",
+      "transaction_amount": 4000.00,
+      "transaction_date": "2024-10-29",
+      "account_balance": 27150.50
+    },
+    {
+      "transaction_id": "T030",
+      "account_holder": "Samuel Diaz",
+      "transaction_type": "Debit",
+      "transaction_amount": 1000.00,
+      "transaction_date": "2024-10-30",
+      "account_balance": 26150.50
+    }
+  ]
+}
