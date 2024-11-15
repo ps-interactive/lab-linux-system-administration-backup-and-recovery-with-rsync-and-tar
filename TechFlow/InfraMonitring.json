@@ -1,19 +1,274 @@
 {
-    "infrastructure": [
+    "infrastructure_monitoring": [
       {
-        "system_id": "SYS001",
-        "system_name": "Main Database Server",
-        "status": "Operational",
-        "cpu_usage": "65%",
-        "memory_usage": "70%",
-        "disk_space": "80%"
+        "server_id": "SRV001",
+        "server_name": "WebServer-01",
+        "cpu_usage": "45%",
+        "memory_usage": "65%",
+        "disk_space_free": "120GB",
+        "status": "Healthy",
+        "last_checked": "2024-11-01T12:00:00Z"
       },
       {
-        "system_id": "SYS002",
-        "system_name": "Web Application Server",
-        "status": "Down",
-        "issue_detected": "Disk Failure",
-        "repair_eta": "2 hours"
+        "server_id": "SRV002",
+        "server_name": "DatabaseServer-01",
+        "cpu_usage": "55%",
+        "memory_usage": "75%",
+        "disk_space_free": "300GB",
+        "status": "Healthy",
+        "last_checked": "2024-11-01T12:05:00Z"
+      },
+      {
+        "server_id": "SRV003",
+        "server_name": "AppServer-01",
+        "cpu_usage": "60%",
+        "memory_usage": "70%",
+        "disk_space_free": "200GB",
+        "status": "Warning",
+        "last_checked": "2024-11-01T12:10:00Z"
+      },
+      {
+        "server_id": "SRV004",
+        "server_name": "CacheServer-01",
+        "cpu_usage": "35%",
+        "memory_usage": "50%",
+        "disk_space_free": "500GB",
+        "status": "Healthy",
+        "last_checked": "2024-11-01T12:15:00Z"
+      },
+      {
+        "server_id": "SRV005",
+        "server_name": "LoadBalancer-01",
+        "cpu_usage": "25%",
+        "memory_usage": "40%",
+        "disk_space_free": "1TB",
+        "status": "Healthy",
+        "last_checked": "2024-11-01T12:20:00Z"
+      },
+      {
+        "server_id": "SRV006",
+        "server_name": "WebServer-02",
+        "cpu_usage": "50%",
+        "memory_usage": "68%",
+        "disk_space_free": "110GB",
+        "status": "Healthy",
+        "last_checked": "2024-11-01T12:25:00Z"
+      },
+      {
+        "server_id": "SRV007",
+        "server_name": "DatabaseServer-02",
+        "cpu_usage": "70%",
+        "memory_usage": "80%",
+        "disk_space_free": "250GB",
+        "status": "Critical",
+        "last_checked": "2024-11-01T12:30:00Z"
+      },
+      {
+        "server_id": "SRV008",
+        "server_name": "AppServer-02",
+        "cpu_usage": "65%",
+        "memory_usage": "73%",
+        "disk_space_free": "190GB",
+        "status": "Warning",
+        "last_checked": "2024-11-01T12:35:00Z"
+      },
+      {
+        "server_id": "SRV009",
+        "server_name": "CacheServer-02",
+        "cpu_usage": "40%",
+        "memory_usage": "55%",
+        "disk_space_free": "480GB",
+        "status": "Healthy",
+        "last_checked": "2024-11-01T12:40:00Z"
+      },
+      {
+        "server_id": "SRV010",
+        "server_name": "LoadBalancer-02",
+        "cpu_usage": "30%",
+        "memory_usage": "50%",
+        "disk_space_free": "950GB",
+        "status": "Healthy",
+        "last_checked": "2024-11-01T12:45:00Z"
+      },
+      {
+        "server_id": "SRV011",
+        "server_name": "WebServer-03",
+        "cpu_usage": "48%",
+        "memory_usage": "66%",
+        "disk_space_free": "115GB",
+        "status": "Healthy",
+        "last_checked": "2024-11-01T12:50:00Z"
+      },
+      {
+        "server_id": "SRV012",
+        "server_name": "DatabaseServer-03",
+        "cpu_usage": "78%",
+        "memory_usage": "85%",
+        "disk_space_free": "220GB",
+        "status": "Critical",
+        "last_checked": "2024-11-01T12:55:00Z"
+      },
+      {
+        "server_id": "SRV013",
+        "server_name": "AppServer-03",
+        "cpu_usage": "62%",
+        "memory_usage": "74%",
+        "disk_space_free": "180GB",
+        "status": "Warning",
+        "last_checked": "2024-11-01T13:00:00Z"
+      },
+      {
+        "server_id": "SRV014",
+        "server_name": "CacheServer-03",
+        "cpu_usage": "38%",
+        "memory_usage": "58%",
+        "disk_space_free": "450GB",
+        "status": "Healthy",
+        "last_checked": "2024-11-01T13:05:00Z"
+      },
+      {
+        "server_id": "SRV015",
+        "server_name": "LoadBalancer-03",
+        "cpu_usage": "20%",
+        "memory_usage": "42%",
+        "disk_space_free": "1.2TB",
+        "status": "Healthy",
+        "last_checked": "2024-11-01T13:10:00Z"
+      },
+      {
+        "server_id": "SRV016",
+        "server_name": "WebServer-04",
+        "cpu_usage": "55%",
+        "memory_usage": "69%",
+        "disk_space_free": "105GB",
+        "status": "Healthy",
+        "last_checked": "2024-11-01T13:15:00Z"
+      },
+      {
+        "server_id": "SRV017",
+        "server_name": "DatabaseServer-04",
+        "cpu_usage": "72%",
+        "memory_usage": "77%",
+        "disk_space_free": "270GB",
+        "status": "Critical",
+        "last_checked": "2024-11-01T13:20:00Z"
+      },
+      {
+        "server_id": "SRV018",
+        "server_name": "AppServer-04",
+        "cpu_usage": "68%",
+        "memory_usage": "79%",
+        "disk_space_free": "175GB",
+        "status": "Warning",
+        "last_checked": "2024-11-01T13:25:00Z"
+      },
+      {
+        "server_id": "SRV019",
+        "server_name": "CacheServer-04",
+        "cpu_usage": "42%",
+        "memory_usage": "60%",
+        "disk_space_free": "460GB",
+        "status": "Healthy",
+        "last_checked": "2024-11-01T13:30:00Z"
+      },
+      {
+        "server_id": "SRV020",
+        "server_name": "LoadBalancer-04",
+        "cpu_usage": "28%",
+        "memory_usage": "45%",
+        "disk_space_free": "1TB",
+        "status": "Healthy",
+        "last_checked": "2024-11-01T13:35:00Z"
+      },
+      {
+        "server_id": "SRV021",
+        "server_name": "WebServer-05",
+        "cpu_usage": "50%",
+        "memory_usage": "68%",
+        "disk_space_free": "125GB",
+        "status": "Healthy",
+        "last_checked": "2024-11-01T13:40:00Z"
+      },
+      {
+        "server_id": "SRV022",
+        "server_name": "DatabaseServer-05",
+        "cpu_usage": "80%",
+        "memory_usage": "82%",
+        "disk_space_free": "240GB",
+        "status": "Critical",
+        "last_checked": "2024-11-01T13:45:00Z"
+      },
+      {
+        "server_id": "SRV023",
+        "server_name": "AppServer-05",
+        "cpu_usage": "64%",
+        "memory_usage": "76%",
+        "disk_space_free": "190GB",
+        "status": "Warning",
+        "last_checked": "2024-11-01T13:50:00Z"
+      },
+      {
+        "server_id": "SRV024",
+        "server_name": "CacheServer-05",
+        "cpu_usage": "36%",
+        "memory_usage": "52%",
+        "disk_space_free": "470GB",
+        "status": "Healthy",
+        "last_checked": "2024-11-01T13:55:00Z"
+      },
+      {
+        "server_id": "SRV025",
+        "server_name": "LoadBalancer-05",
+        "cpu_usage": "32%",
+        "memory_usage": "48%",
+        "disk_space_free": "900GB",
+        "status": "Healthy",
+        "last_checked": "2024-11-01T14:00:00Z"
+      },
+      {
+        "server_id": "SRV026",
+        "server_name": "WebServer-06",
+        "cpu_usage": "47%",
+        "memory_usage": "67%",
+        "disk_space_free": "130GB",
+        "status": "Healthy",
+        "last_checked": "2024-11-01T14:05:00Z"
+      },
+      {
+        "server_id": "SRV027",
+        "server_name": "DatabaseServer-06",
+        "cpu_usage": "83%",
+        "memory_usage": "87%",
+        "disk_space_free": "210GB",
+        "status": "Critical",
+        "last_checked": "2024-11-01T14:10:00Z"
+      },
+      {
+        "server_id": "SRV028",
+        "server_name": "AppServer-06",
+        "cpu_usage": "66%",
+        "memory_usage": "78%",
+        "disk_space_free": "195GB",
+        "status": "Warning",
+        "last_checked": "2024-11-01T14:15:00Z"
+      },
+      {
+        "server_id": "SRV029",
+        "server_name": "CacheServer-06",
+        "cpu_usage": "39%",
+        "memory_usage": "59%",
+        "disk_space_free": "465GB",
+        "status": "Healthy",
+        "last_checked": "2024-11-01T14:20:00Z"
+      },
+      {
+        "server_id": "SRV030",
+        "server_name": "LoadBalancer-06",
+        "cpu_usage": "26%",
+        "memory_usage": "44%",
+        "disk_space_free": "1.1TB",
+        "status": "Healthy",
+        "last_checked": "2024-11-01T14:25:00Z"
       }
     ]
   }
