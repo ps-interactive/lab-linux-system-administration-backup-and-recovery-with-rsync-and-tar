@@ -1,0 +1,40 @@
+{
+  "trainers": [
+    {
+      "trainer_id": "T001",
+      "name": "Sophia Johnson",
+      "certifications": ["Certified Yoga Instructor", "Meditation Expert"],
+      "expertise": ["Yoga", "Meditation"],
+      "contact_details": {
+        "email": "sophiajohnson@example.com",
+        "phone": "+1-555-2345"
+      },
+      "assigned_classes": ["C001"],
+      "availability_schedule": "Mon-Fri: 7 AM - 12 PM"
+    },
+    {
+      "trainer_id": "T002",
+      "name": "James Wilson",
+      "certifications": ["Personal Trainer Certification"],
+      "expertise": ["HIIT", "Strength Training"],
+      "contact_details": {
+        "email": "jameswilson@example.com",
+        "phone": "+1-555-6789"
+      },
+      "assigned_classes": ["C002"],
+      "availability_schedule": "Tue-Thu: 5 PM - 8 PM"
+    },
+    {
+      "trainer_id": "T003",
+      "name": "Olivia Martinez",
+      "certifications": ["Pilates Certification"],
+      "expertise": ["Pilates", "Flexibility Training"],
+      "contact_details": {
+        "email": "oliviamartinez@example.com",
+        "phone": "+1-555-3456"
+      },
+      "assigned_classes": ["C003"],
+      "availability_schedule": "Mon-Wed-Fri: 9 AM - 1 PM"
+    }
+  ]
+}

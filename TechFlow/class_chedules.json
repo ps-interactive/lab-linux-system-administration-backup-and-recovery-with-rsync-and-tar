@@ -1,0 +1,46 @@
+{
+  "classes": [
+    {
+      "class_id": "C001",
+      "class_name": "Morning Yoga",
+      "trainer_name": "Sophia Johnson",
+      "schedule": {
+        "date": "2023-11-10",
+        "time": "07:00 AM",
+        "duration": "60 minutes"
+      },
+      "max_capacity": 20,
+      "registered_members": ["M001", "M002"],
+      "class_type": "Yoga",
+      "location": "Studio A"
+    },
+    {
+      "class_id": "C002",
+      "class_name": "HIIT",
+      "trainer_name": "James Wilson",
+      "schedule": {
+        "date": "2023-11-12",
+        "time": "06:00 PM",
+        "duration": "45 minutes"
+      },
+      "max_capacity": 15,
+      "registered_members": ["M003"],
+      "class_type": "High Intensity Interval Training",
+      "location": "Studio B"
+    },
+    {
+      "class_id": "C003",
+      "class_name": "Pilates",
+      "trainer_name": "Olivia Martinez",
+      "schedule": {
+        "date": "2023-11-15",
+        "time": "10:00 AM",
+        "duration": "60 minutes"
+      },
+      "max_capacity": 10,
+      "registered_members": ["M001"],
+      "class_type": "Pilates",
+      "location": "Studio C"
+    }
+  ]
+}

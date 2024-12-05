@@ -1,0 +1,31 @@
+{
+  "equipment": [
+    {
+      "equipment_id": "E001",
+      "type": "Treadmill",
+      "date_of_purchase": "2020-01-10",
+      "maintenance_schedule": "Quarterly",
+      "current_condition": "Good",
+      "last_maintenance_date": "2023-09-10",
+      "vendor_information": "FitGear Supplies"
+    },
+    {
+      "equipment_id": "E002",
+      "type": "Elliptical Machine",
+      "date_of_purchase": "2019-05-15",
+      "maintenance_schedule": "Bi-Annual",
+      "current_condition": "Needs Repair",
+      "last_maintenance_date": "2023-06-15",
+      "vendor_information": "PowerTech Equipment"
+    },
+    {
+      "equipment_id": "E003",
+      "type": "Dumbbells",
+      "date_of_purchase": "2021-03-20",
+      "maintenance_schedule": "Annual",
+      "current_condition": "Excellent",
+      "last_maintenance_date": "2023-03-20",
+      "vendor_information": "IronMan Fitness"
+    }
+  ]
+}

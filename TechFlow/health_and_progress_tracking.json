@@ -1,0 +1,60 @@
+{
+  "health_progress": [
+    {
+      "member_id": "M001",
+      "workout_goals": ["Weight Loss", "Increased Flexibility"],
+      "body_measurements": {
+        "weight": "80kg",
+        "bmi": "28"
+      },
+      "progress_over_time": [
+        {
+          "date": "2023-01-01",
+          "weight": "85kg",
+          "bmi": "30"
+        },
+        {
+          "date": "2023-06-01",
+          "weight": "80kg",
+          "bmi": "28"
+        }
+      ],
+      "dietary_preferences": ["Low Carb", "High Protein"],
+      "workout_logs": [
+        {
+          "date": "2023-10-01",
+          "type": "Yoga",
+          "duration": "60 minutes"
+        }
+      ]
+    },
+    {
+      "member_id": "M002",
+      "workout_goals": ["Muscle Gain"],
+      "body_measurements": {
+        "weight": "75kg",
+        "bmi": "25"
+      },
+      "progress_over_time": [
+        {
+          "date": "2023-02-01",
+          "weight": "70kg",
+          "bmi": "24"
+        },
+        {
+          "date": "2023-07-01",
+          "weight": "75kg",
+          "bmi": "25"
+        }
+      ],
+      "dietary_preferences": ["High Calorie", "High Protein"],
+      "workout_logs": [
+        {
+          "date": "2023-10-02",
+          "type": "HIIT",
+          "duration": "45 minutes"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+    "memberships": [
+      {
+        "member_id": "M001",
+        "name": "John Doe",
+        "contact_details": {
+          "email": "johndoe@example.com",
+          "phone": "+1-555-1234"
+        },
+        "membership_type": "Premium",
+        "membership_start_date": "2023-01-15",
+        "membership_end_date": "2024-01-14",
+        "attendance_records": 45,
+        "preferred_workout_times": "Morning",
+        "trainer_assigned": "T001",
+        "payment_history": [
+          {
+            "transaction_id": "TX001",
+            "date": "2023-01-15",
+            "amount": 1200
+          }
+        ]
+      },
+      {
+        "member_id": "M002",
+        "name": "Jane Smith",
+        "contact_details": {
+          "email": "janesmith@example.com",
+          "phone": "+1-555-5678"
+        },
+        "membership_type": "Basic",
+        "membership_start_date": "2023-02-10",
+        "membership_end_date": "2023-08-09",
+        "attendance_records": 25,
+        "preferred_workout_times": "Evening",
+        "trainer_assigned": "T002",
+        "payment_history": [
+          {
+            "transaction_id": "TX002",
+            "date": "2023-02-10",
+            "amount": 600
+          }
+        ]
+      },
+      {
+        "member_id": "M003",
+        "name": "Michael Brown",
+        "contact_details": {
+          "email": "michaelbrown@example.com",
+          "phone": "+1-555-9012"
+        },
+        "membership_type": "Premium",
+        "membership_start_date": "2023-03-01",
+        "membership_end_date": "2024-02-29",
+        "attendance_records": 50,
+        "preferred_workout_times": "Afternoon",
+        "trainer_assigned": "T003",
+        "payment_history": [
+          {
+            "transaction_id": "TX003",
+            "date": "2023-03-01",
+            "amount": 1200
+          }
+        ]
+      }
+    ]
+  }
+  
